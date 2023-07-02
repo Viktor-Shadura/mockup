@@ -16,7 +16,7 @@
 }
 
 .list {
-  
+  list-style: none;
 }
 
 body {
@@ -68,7 +68,7 @@ body {
 
 /* TABLE STOP */
 
-/* CURSOR FINIS */
+/* CURSOR START */
 
 .auto {
   cursor: auto;
@@ -165,12 +165,6 @@ body {
 }
 .nwse-resize {
   cursor: nwse-resize;
-}
-
-body {
-  text-align: center;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica,
-    Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 }
 
 .cursors {
