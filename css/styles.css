@@ -16,7 +16,7 @@
   margin: -1px;
   border: 0;
   padding: 0;
-  
+
   white-space: nowrap;
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
@@ -37,6 +37,8 @@
 }
 
 body {
+  font-family: 'Montserrat', sans-serif;
+
   color: rgb(121, 7, 7);
 }
 
@@ -77,10 +79,6 @@ body {
 .schedule td {
   padding: 8px;
   border: 1px solid #212121;
-}
-
-body {
-  font-family: sans-serif;
 }
 
 /* TABLE STOP */
