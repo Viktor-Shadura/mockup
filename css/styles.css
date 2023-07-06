@@ -29,11 +29,16 @@
 
 .link {
   color: currentColor;
+  /* inherit */
   text-decoration: none;
 }
 
 .list {
   list-style: none;
+}
+
+h1 {
+  font-weight: 900;
 }
 
 body {
@@ -212,11 +217,94 @@ code {
 
 /* TEXT START */
 
+/* Колонки */
+
 .columns {
   text-indent: 40px;
-  column-count: 2;
+  column-count: 3;
   column-width: 100px;
   column-gap: 20px;
+}
+
+/* Декоративні елементи */
+
+.text-line-through {
+  color: rgba(100, 100, 100, 0.6);
+
+  text-decoration: red line-through 1px;
+}
+
+.text-underline {
+  color: teal;
+
+  text-decoration: rgb(128, 17, 219) underline 1px;
+}
+
+.text-overline {
+  color: black;
+
+  text-decoration: green overline 1px;
+}
+
+/* Регістри */
+
+.text-uppercase {
+  text-transform: lowercase;
+}
+
+.text-lowercase {
+  text-transform: uppercase;
+}
+
+.text-capitalize {
+  text-transform: capitalize;
+}
+
+/* Перенос рядків */
+
+.text__nowrap {
+  white-space: nowrap;
+}
+.text__pre {
+  white-space: pre;
+}
+.text__pre-wrap {
+  white-space: pre-wrap;
+}
+
+/* Рішення через "pre" */
+
+.text--pre {
+  font: inherit;
+
+  font-style: italic;
+}
+
+.text--pre--font_Caveat {
+  font-family: 'Caveat', sans-serif;
+
+  font-size: 24px;
+  line-height: 1.2;
+}
+
+/* Офорилення першої літери тексту */
+
+.text--pre-A {
+  font: inherit;
+}
+
+.text--pre-A::first-letter {
+  font-size: 36px;
+  font-weight: 700;
+
+  color: red;
+}
+
+/* Кольорове віділення тексту */
+
+.text--pre-A::selection {
+  color: #3f51b5;
+  background-color: yellow;
 }
 
 /* TEXT STOP */

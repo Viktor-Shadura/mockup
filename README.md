@@ -1,2 +1,1 @@
-# mockup
-Practice and layouts of different parts of web design.
+Практика, піт та сльози...

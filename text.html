@@ -1,23 +1,152 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="uk">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title lang="en">Free Mockups</title>
+    <meta
+      name="description"
+      content="Велика безкоштовна колекція різноманітних готових рішень для ваших перших проєктів у веб-розробці."
+    />
+    <!-- FONTS CTART 
+      Підключені такі шрифти:
+    Montserrat - 300, 400, 500, 700, 900.
+    Caveat - 400. (прописний, для цитат і т.д.)
+    -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Caveat&family=Montserrat:wght@300;400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- FONTS STOP -->
+
+    <!-- STYLES CSS -->
+    <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <!-- TODO НЕ ПРАЦЮЮТЬ КОЛОНКИ, треба розібратися з різним оформленням тесту -->
-    <div class="columns">
-      <p>
-        CSS властивість <em>column-count</em> розбиває вміст елемента на задану кількість стовпчиків.
-      </p>
-      <p>
-        Властивість CSS <em>column-width</em> встановлює ширину стовпчика у багатостовпчиковому
-        макеті. У контейнері буде стільки стовпчиків, скільки може поміститися. Якщо ширина контейнера вже вказаного значення, ширина окремого стовпчика буде меншою за заявлену ширину стовпчика.
-      </p>
-      <p>
-        Властивість CSS <em>column-gap</em> встановлює розмір проміжку між стовпчиками елемента.
-      </p>
-    </div>
+    <header>
+      <a class="link" href="./index.html">Головна</a>
+    </header>
+    <main>
+      <h1>Оформлення тексту</h1>
+
+      <!-- КОЛОНКИ ТЕКСТУ -->
+      <section class="section">
+        <div class="container">
+          <h2>Колонки</h2>
+          <div class="columns">
+            <p>
+              CSS властивість <em>column-count</em> розбиває вміст елемента на задану кількість
+              стовпчиків.
+            </p>
+            <p>
+              Властивість CSS <em>column-width</em> встановлює ширину стовпчика у
+              багатостовпчиковому макеті. У контейнері буде стільки стовпчиків, скільки може
+              поміститися. Якщо ширина контейнера вже вказаного значення, ширина окремого стовпчика
+              буде меншою за заявлену ширину стовпчика.
+            </p>
+            <p>
+              Властивість CSS <em>column-gap</em> встановлює розмір проміжку між стовпчиками
+              елемента.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- ДЕКОРАТИВНІ ЕЛЕМЕНТИ -->
+      <section class="section">
+        <div class="container">
+          <h2>Декоративні елементи</h2>
+          <p class="text-line-through">Закреслений текст</p>
+          <p class="text-underline">Підкреслений текст</p>
+          <p class="text-overline">Лінія над текстом</p>
+        </div>
+      </section>
+
+      <!-- РІЗНІ РЕГІСТРИ -->
+      <section class="section">
+        <div class="container">
+          <h2>Різні регістри</h2>
+          <p class="text-uppercase">Весь текст маленькими літерами</p>
+          <p class="text-lowercase">Весь текст великими літерами</p>
+          <p class="text-capitalize">Кожне слово з великої літери</p>
+        </div>
+      </section>
+
+      <!-- ПЕРЕНОС РЯДКІВ -->
+      <!-- ! (Не можливо корстуватися властивісттю "white-space") Притір форматує і переносе рядки в html - треба розібратись як це виправити -->
+
+      <!-- TODO Треба подивитись відео або приклади про властивість "white-space" -->
+
+      <section class="section">
+        <div class="container">
+          <h2>Перенос рядків</h2>
+          <h3>Рішення через властивість "white-space"</h3>
+          <p class="text__nowrap">
+            Ходить пані по садку, тягне пса на повідку. Я ж собі зітхаю марно: як тій пані жити
+            гарно! Правда?
+          </p>
+          <p class="text__nowrap">
+            Всі когось удома мають, пестять їх і обіймають, щось шепочуть їм на вухо, і уважно хтось
+            їх слуха... Правда?
+          </p>
+          <p class="text__pre">
+            Ходить пані по садку, тягне пса на повідку. Я ж собі зітхаю марно: як тій пані жити
+            гарно! Правда?
+          </p>
+          <p class="text__pre">
+            Всі когось удома мають, пестять їх і обіймають, щось шепочуть їм на вухо, і уважно хтось
+            їх слуха... Правда?
+          </p>
+          <p class="text__pre-wrap">
+            Ходить пані по садку, тягне пса на повідку. Я ж собі зітхаю марно: як тій пані жити
+            гарно! Правда?
+          </p>
+          <p class="text__pre-wrap">
+            Всі когось удома мають, пестять їх і обіймають, щось шепочуть їм на вухо, і уважно хтось
+            їх слуха... Правда?
+          </p>
+
+          <!-- TODO Рішення через тег "pre" (Все що знаходиться в тегу "pre" не наслідує налаштування тексту, тому треба додавати налаштування "font: inherit;", або додавати стилями) -->
+          <h3>Рішення через тег "pre"</h3>
+          <pre class="text--pre">
+            Ходить пані по садку, 
+            тягне пса на повідку. 
+            Я ж собі зітхаю марно: 
+            як тій пані жити гарно! 
+            Правда?
+          </pre>
+          <pre class="text--pre--font_Caveat">
+            Всі когось удома мають, 
+            пестять їх і обіймають, 
+            щось шепочуть їм на вухо, 
+            і уважно хтось їх слуха... 
+            Правда?
+          </pre>
+        </div>
+      </section>
+
+      <!-- ПСЕВДОЕЛЕМЕНТИ ТЕКСТУ -->
+      <section class="section">
+        <div class="container">
+          <h2>Псевдоелементи тексту</h2>
+          <h3>Оформлення першої літери тексту та Виділення тексту</h3>
+          <pre class="text--pre-A">
+  Ходить пані по садку, 
+  тягне пса на повідку. 
+  Я ж собі зітхаю марно: 
+  як тій пані жити гарно! 
+  Правда?
+          </pre>
+          <p class="text--pre-A">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci excepturi velit
+            recusandae voluptas quam nemo nostrum magni quae beatae, corrupti provident accusantium
+            obcaecati suscipit ad, optio illo nesciunt a. Repellendus.
+          </p>
+        </div>
+      </section>
+    </main>
+    <footer></footer>
   </body>
 </html>
