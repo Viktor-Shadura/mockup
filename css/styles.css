@@ -302,9 +302,16 @@ code {
 
 /* Кольорове віділення тексту */
 
+.text-accent {
+  color: #3f51b5;
+  background-color: yellow;
+}
+
 .text--pre-A::selection {
   color: #3f51b5;
   background-color: yellow;
 }
+
+/* Автоперевірка */
 
 /* TEXT STOP */
