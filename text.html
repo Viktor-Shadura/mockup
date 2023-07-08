@@ -57,10 +57,30 @@
       <!-- ДЕКОРАТИВНІ ЕЛЕМЕНТИ -->
       <section class="section">
         <div class="container">
-          <h2>Декоративні елементи</h2>
-          <p class="text-line-through">Закреслений текст</p>
-          <p class="text-underline">Підкреслений текст</p>
-          <p class="text-overline">Лінія над текстом</p>
+          <div>
+            <h2>Декоративні елементи 1</h2>
+            <p class="text-line-through">Закреслений текст</p>
+            <p class="text-underline">Підкреслений текст</p>
+            <p class="text-overline">Лінія над текстом</p>
+          </div>
+          <div>
+            <h2>Декоративні елементи 2</h2>
+            <div class="up" data-line="overline" data-style="wavy" data-color="red">
+              <span>Overline</span>
+            </div>
+            <div class="through" data-line="line-through" data-style="dashed" data-color="green">
+              <span>Line-through</span>
+            </div>
+            <div class="down" data-line="underline" data-style="solid" data-color="blue">
+              <span>Underline</span>
+            </div>
+            <div class="no" data-line="none">
+              <span>None</span>
+            </div>
+            <div class="combi" data-line="underline overline" data-style="double" data-color="grey">
+              <span>Combination</span>
+            </div>
+          </div>
         </div>
       </section>
 
@@ -146,6 +166,28 @@
             recusandae voluptas quam nemo nostrum magni quae beatae, corrupti provident accusantium
             obcaecati suscipit ad, optio illo nesciunt a. Repellendus.
           </p>
+        </div>
+      </section>
+
+      <!-- ПСЕВДОЕЛЕМЕНТИ ТЕКСТУ -->
+      <section class="section">
+        <div class="container">
+          <h2>Тінь</h2>
+          <ol>
+            <li
+              class="one"
+              data-x="3px"
+              data-y="3px"
+              data-blur="2px"
+              data-color="hsla(0, 0%, 0%, .5)"
+            >
+              CSS-властивість text-shadow додає тіні до тексту і всіх елементів text-decoration.
+            </li>
+            <li>
+              Це все тіні однієї літери О:
+              <span class="rings" data-colors="blue black green red">O</span>
+            </li>
+          </ol>
         </div>
       </section>
 

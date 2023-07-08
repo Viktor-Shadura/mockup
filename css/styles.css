@@ -226,7 +226,7 @@ code {
   column-gap: 20px;
 }
 
-/* Декоративні елементи */
+/* Декоративні елементи 1 */
 
 .text-line-through {
   color: rgba(100, 100, 100, 0.6);
@@ -244,6 +244,23 @@ code {
   color: black;
 
   text-decoration: green overline 1px;
+}
+
+/* Декоративні елементи 2 */
+.up {
+  text-decoration: overline wavy red;
+}
+.through {
+  text-decoration: line-through dashed green;
+}
+.down {
+  text-decoration: underline solid blue;
+}
+.no {
+  text-decoration: none;
+}
+.combi {
+  text-decoration: underline overline double grey;
 }
 
 /* Регістри */
@@ -310,6 +327,21 @@ code {
 .text--pre-A::selection {
   color: #3f51b5;
   background-color: yellow;
+}
+
+/* ТІНЬ */
+
+.one {
+  color: blue;
+  text-decoration: underline wavy;
+  margin-bottom: 1rem;
+
+  text-shadow: 3px 3px 2px hsla(0, 0%, 0%, 0.5), -3px -3px 2px hsla(0, 86%, 44%, 0.5);
+}
+
+.rings {
+  color: orange;
+  text-shadow: -5px -6px 0 blue, 5px -6px 0 black, 10px 0 0 green, 15px -6px 0 red;
 }
 
 /* Автоперевірка */
