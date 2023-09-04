@@ -27,24 +27,36 @@
 
 /* RESET START */
 
-.link {
-  color: currentColor;
-  /* inherit */
-  text-decoration: none;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0%;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
 }
 
 .list {
-  list-style: none;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
 
-h1 {
-  font-weight: 900;
+.link {
+  text-decoration: none;
+  color: currentColor;
+  /* inherit */
 }
 
 body {
   font-family: 'Montserrat', sans-serif;
-
-  color: rgb(121, 7, 7);
 }
 
 .section {
@@ -55,7 +67,7 @@ body {
 }
 
 .container {
-  max-width: 1570px;
+  max-width: 1600px;
 
   padding-left: 15px;
   padding-right: 15px;
@@ -70,15 +82,32 @@ body {
 
 /* RESET STOP */
 
-/* TABLE START */
+/*ГОЛОВНА СТОРІНКА СТАРТ*/
 
-.schedule-body > tr:hover {
-  background-color: tomato;
-  color: white;
+.naw-slider {
+  display: flex;
+  gap: 10px;
 }
 
+.naw-slider-text {
+  width: 385px;
+
+  padding: 60px 50px;
+
+  background-color: rgb(255, 189, 177);
+}
+
+/*ГОЛОВНА СТОРІНКА СТОП*/
+
+/* TABLE START */
+
+/* .schedule-body > tr:hover {
+  background-color: tomato;
+  color: white;
+} */
+
 /* Table styling */
-.schedule {
+/* .schedule {
   border-collapse: collapse;
 }
 
@@ -86,13 +115,13 @@ body {
 .schedule td {
   padding: 8px;
   border: 1px solid #212121;
-}
+} */
 
 /* TABLE STOP */
 
 /* CURSOR START */
 
-.auto {
+/* .auto {
   cursor: auto;
 }
 .default {
@@ -213,7 +242,7 @@ code {
   padding: 4px 6px;
   border-radius: 4px;
   font-size: 32px;
-}
+} */
 
 /* CURSOR STOP */
 
@@ -221,16 +250,16 @@ code {
 
 /* Колонки */
 
-.columns {
+/* .columns {
   text-indent: 40px;
   column-count: 3;
   column-width: 100px;
   column-gap: 20px;
-}
+} */
 
 /* Декоративні елементи 1 */
 
-.text-line-through {
+/* .text-line-through {
   color: rgba(100, 100, 100, 0.6);
 
   text-decoration: red line-through 1px;
@@ -246,10 +275,10 @@ code {
   color: black;
 
   text-decoration: green overline 1px;
-}
+} */
 
 /* Декоративні елементи 2 */
-.up {
+/* .up {
   text-decoration: overline wavy red;
 }
 .through {
@@ -263,11 +292,11 @@ code {
 }
 .combi {
   text-decoration: underline overline double grey;
-}
+} */
 
 /* Регістри */
 
-.text-uppercase {
+/* .text-uppercase {
   text-transform: lowercase;
 }
 
@@ -277,11 +306,11 @@ code {
 
 .text-capitalize {
   text-transform: capitalize;
-}
+} */
 
 /* Перенос рядків */
 
-.text__nowrap {
+/* .text__nowrap {
   white-space: nowrap;
 }
 .text__pre {
@@ -289,11 +318,11 @@ code {
 }
 .text__pre-wrap {
   white-space: pre-wrap;
-}
+} */
 
 /* Рішення через "pre" */
 
-.text--pre {
+/* .text--pre {
   font: inherit;
 
   font-style: italic;
@@ -304,11 +333,11 @@ code {
 
   font-size: 24px;
   line-height: 1.2;
-}
+} */
 
 /* Офорилення першої літери тексту */
 
-.text--pre-A {
+/* .text--pre-A {
   font: inherit;
 }
 
@@ -317,11 +346,11 @@ code {
   font-weight: 700;
 
   color: red;
-}
+} */
 
 /* Кольорове віділення тексту */
 
-.text-accent {
+/* .text-accent {
   color: #3f51b5;
   background-color: yellow;
 }
@@ -329,11 +358,11 @@ code {
 .text--pre-A::selection {
   color: #3f51b5;
   background-color: yellow;
-}
+} */
 
 /* ТІНЬ */
 
-.one {
+/* .one {
   color: blue;
   text-decoration: underline wavy;
   margin-bottom: 1rem;
@@ -344,7 +373,7 @@ code {
 .rings {
   color: orange;
   text-shadow: -5px -6px 0 blue, 5px -6px 0 black, 10px 0 0 green, 15px -6px 0 red;
-}
+} */
 
 /* Автоперевірка */
 
@@ -352,32 +381,32 @@ code {
 
 /* BORDER START */
 
-.border-test {
+/* .border-test {
   width: 200px;
-  height: 200px;
+  height: 200px; */
 
-  /* Встановить стилі верхньої рамки */
-  border-top-width: 3px;
+/* Встановить стилі верхньої рамки */
+/* border-top-width: 3px;
   border-top-style: solid;
   border-top-color: blue;
-  border-top-left-radius: 10px;
+  border-top-left-radius: 10px; */
 
-  /* Встановить стилі правої рамки */
-  border-right-width: 5px;
+/* Встановить стилі правої рамки */
+/* border-right-width: 5px;
   border-right-style: dotted;
   border-right-color: black;
-  border-top-right-radius: 30px;
+  border-top-right-radius: 30px; */
 
-  /* Встановить стилі нижньої рамки */
-  border-bottom-width: 7px;
+/* Встановить стилі нижньої рамки */
+/* border-bottom-width: 7px;
   border-bottom-style: dashed;
   border-bottom-color: palevioletred;
-  border-bottom-left-radius: 50%;
+  border-bottom-left-radius: 50%; */
 
-  /* Встановить стилі лівої рамки */
-  border-left-width: 9px;
+/* Встановить стилі лівої рамки */
+/* border-left-width: 9px;
   border-left-style: dashed;
   border-left-color: green;
-}
+} */
 
 /* BORDER STOP */

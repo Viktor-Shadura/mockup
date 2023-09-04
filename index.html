@@ -17,13 +17,23 @@
       rel="stylesheet"
     />
     <!-- FONTS STOP -->
-
+    <!-- MODERN-NORMALIZE START -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+      integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- MODERN-NORMALIZE STOP -->
     <!-- STYLES CSS -->
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
     <header>
-      <a class="link" href="./index.html">Головна</a>
+      <div class="container">
+        <a class="link" href="./index.html">LOGO|Головна</a>
+      </div>
     </header>
     <main>
       <!-- HERO SECTION -->
@@ -38,8 +48,24 @@
       <section class="section">
         <div class="container">
           <ul class="list">
-            <li><a class="link" href="./hero.html">Герої</a></li>
-            <li><a class="link" href="./slider.html">Слайдери</a></li>
+            <li>
+              <a class="link naw-slider" href="./slider.html">
+                <div class="naw-slider-text">
+                  <h2>Слайдери</h2>
+                  <p>Збірка слайдерів для роботи</p>
+                </div>
+                <picture>
+                  <img src="./image/time-image/780x400.jpg" alt="780x400" />
+                </picture>
+              </a>
+            </li>
+            <!-- <li>
+              <a class="link" href="./hero.html">
+                <picture></picture>
+                <div></div>
+                Герої
+              </a>
+            </li>
             <li><a class="link" href="./catalog.html">Каталоги</a></li>
             <li><a class="link" href="./card.html">Картки товару</a></li>
             <li><a class="link" href="./article.html">Статті</a></li>
@@ -59,7 +85,7 @@
             <li><a class="link" href="./text.html">Текст</a></li>
             <li><a class="link" href="./link.html">Посилання</a></li>
             <li><a class="link" href="./anchor.html">Якірні посилання</a></li>
-            <li><a class="link" href="./button.html">Кнопки</a></li>
+            <li><a class="link" href="./button.html">Кнопки</a></li> -->
           </ul>
         </div>
       </section>
