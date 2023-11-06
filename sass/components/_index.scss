@@ -1,5 +1,10 @@
 // HEADER
 
+.header-line {
+  display: flex;
+  flex-wrap: wrap;
+}
+
 h1 {
   font-size: 64px;
   font-weight: 900;

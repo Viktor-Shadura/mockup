@@ -63,14 +63,18 @@ body {
 }
 
 .container {
-  max-width: 1792px;
-  padding-left: 15px;
-  padding-right: 15px;
-  /* padding: 0 15px; */
-  margin-left: auto;
-  margin-right: auto;
-  /* margin: 0 auto; */
+  max-width: 1790px;
+  padding: 0 15px;
+  margin: 0 auto;
   border: 1px solid #3b8ad3;
+}
+
+.header-line {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
 h1 {
