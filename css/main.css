@@ -59,14 +59,14 @@ body {
 .section {
   padding-top: 30px;
   padding-bottom: 30px;
-  border: 1px solid tomato;
+  outline: 1px solid tomato;
 }
 
 .container {
   max-width: 1790px;
   padding: 0 15px;
   margin: 0 auto;
-  border: 1px solid #3b8ad3;
+  outline: 1px solid #3b8ad3;
 }
 
 .header-line {
