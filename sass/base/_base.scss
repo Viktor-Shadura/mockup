@@ -1,10 +1,30 @@
 body {
   font-family: 'Montserrat', sans-serif;
+
+  background-image: url('../../image/base-image/background.jpg');
+
+  color: var(--text-color);
+
+  font-size: 24px;
+}
+
+h1 {
+  font-size: 64px;
+  font-weight: 900;
+
+  padding-top: 20px;
+  padding-bottom: 20px;
+
+  margin-left: 20px;
 }
 
 .section {
   padding-top: 30px;
   padding-bottom: 30px;
 
-  outline: 1px solid tomato;
+  // outline: 1px solid tomato;
+}
+
+.title {
+  text-align: center;
 }

@@ -3,11 +3,18 @@
 .header-line {
   display: flex;
   flex-wrap: wrap;
+  align-items: center;
 }
 
-h1 {
-  font-size: 64px;
-  font-weight: 900;
+.contacts {
+  margin-left: auto;
+}
+
+// NAVIGATION
+
+.nav-section {
+  border-top: 1px solid var(--main-color);
+  border-bottom: 1px solid var(--main-color);
 }
 
 .nav {
@@ -26,9 +33,11 @@ h1 {
   padding: 7px 10px;
   min-width: 167px;
 
+  color: var(--text-secondary-color);
+
   text-align: center;
 
-  background-color: aquamarine;
+  background-color: var(--main-color);
 }
 
 // .naw-slider {
