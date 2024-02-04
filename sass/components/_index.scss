@@ -19,36 +19,41 @@
 
 .nav {
 }
+
 .nav__list {
   display: flex;
   flex-wrap: wrap;
 
   gap: 10px;
 }
+
 .nav__item {
 }
+
 .nav__link {
   display: inline-block;
 
   padding: 7px 10px;
   min-width: 167px;
 
-  color: var(--text-secondary-color);
+  color: var(--text-dark-color);
 
   text-align: center;
 
   background-color: var(--main-color);
+
+  &:hover,
+  &:focus {
+    background-color: var(--dark-color);
+    color: var(--main-color);
+    border-left: var(--main-color) 1px solid;
+    border-right: var(--main-color) 1px solid;
+  }
 }
 
-// .naw-slider {
-//   display: flex;
-//   gap: 10px;
-// }
+.img-menu {
+  display: flex;
+  flex-wrap: wrap;
 
-// .naw-slider-text {
-//   width: 385px;
-
-//   padding: 60px 50px;
-
-//   background-color: rgb(255, 189, 177);
-// }
+  gap: 10px;
+}

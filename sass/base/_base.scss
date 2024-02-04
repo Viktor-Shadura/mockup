@@ -1,3 +1,5 @@
+/*BASE SETTINGS START*/
+
 body {
   font-family: 'Montserrat', sans-serif;
 
@@ -8,15 +10,9 @@ body {
   font-size: 24px;
 }
 
-h1 {
-  font-size: 64px;
-  font-weight: 900;
+/*BASE SETTINGS STOP*/
 
-  padding-top: 20px;
-  padding-bottom: 20px;
-
-  margin-left: 20px;
-}
+/*SECTIONS SETTINGS START*/
 
 .section {
   padding-top: 30px;
@@ -25,6 +21,37 @@ h1 {
   // outline: 1px solid tomato;
 }
 
+/*SECTIONS SETTINGS STOP*/
+
+/*TYPOGRAPHY SETTINGS START*/
+//* також в RESET є скидання налаштувань для тексту.
+
+h1 {
+  font-size: 64px;
+  font-weight: 900;
+
+  padding-top: 20px;
+  padding-bottom: 20px;
+
+  margin-left: 20px;
+
+  color: var(--text-light-color);
+}
+
+p {
+  color: var(--text-light-color);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--text-light-color);
+}
+
 .title {
   text-align: center;
 }
+/*TYPOGRAPHY SETTINGS STOP*/
