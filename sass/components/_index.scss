@@ -108,13 +108,14 @@
   }
 }
 
-.menu-tile__list-link__margin-bottom {
-  margin-bottom: 10px;
+.border-pik {
+  border-top: var(--main-color) 1px solid;
+  border-left: var(--main-color) 1px solid;
+  border-bottom: var(--main-color) 1px solid;
 }
 
-.hu {
-  display: flex;
-  flex-wrap: wrap;
+.border-ol {
+  border: var(--main-color) 1px solid;
 }
 
 // !MENU TILE STOP
