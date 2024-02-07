@@ -94,6 +94,36 @@
   }
 }
 
+.left-tile {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  text-align: center;
+
+  font-weight: 500;
+  font-size: 62px;
+
+  width: 344px;
+  min-height: 344px;
+
+  padding: 15px 15px;
+
+  color: var(--text-dark-color);
+  background-color: var(--main-color);
+
+  &:hover,
+  &:focus {
+    background-color: var(--dark-color);
+    color: var(--main-color);
+    border: var(--main-color) 1px solid;
+  }
+}
+
+.tile-img {
+  fill: var(--light-color);
+}
+
 .menu-tile__gray {
   color: var(--text-light-color);
   background-color: var(--dark-color);
@@ -108,10 +138,8 @@
   }
 }
 
-.border-pik {
-  border-top: var(--main-color) 1px solid;
-  border-left: var(--main-color) 1px solid;
-  border-bottom: var(--main-color) 1px solid;
+.border-tile {
+  border: var(--main-color) 1px solid;
 }
 
 .border-ol {

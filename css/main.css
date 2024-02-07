@@ -59,6 +59,7 @@ img {
 /*BASE SETTINGS START*/
 body {
   font-family: "Montserrat", sans-serif;
+  background-color: var(--dark-color);
   background-image: url(../image/base-image/background.jpg);
   color: var(--text-color);
   font-size: 24px;
@@ -188,6 +189,35 @@ h6 {
   border: var(--main-color) 1px solid;
 }
 
+.left-tile {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  font-weight: 500;
+  font-size: 62px;
+  width: 344px;
+  min-height: 344px;
+  padding: 15px 15px;
+  color: var(--text-dark-color);
+  background-color: var(--main-color);
+}
+.left-tile:hover, .left-tile:focus {
+  background-color: var(--dark-color);
+  color: var(--main-color);
+  border: var(--main-color) 1px solid;
+}
+
+.tile-img {
+  fill: var(--light-color);
+}
+
 .menu-tile__gray {
   color: var(--text-light-color);
   background-color: var(--dark-color);
@@ -199,10 +229,8 @@ h6 {
   border: var(--main-color) 1px solid;
 }
 
-.border-pik {
-  border-top: var(--main-color) 1px solid;
-  border-left: var(--main-color) 1px solid;
-  border-bottom: var(--main-color) 1px solid;
+.border-tile {
+  border: var(--main-color) 1px solid;
 }
 
 .border-ol {
