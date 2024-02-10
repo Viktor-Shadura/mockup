@@ -1,4 +1,8 @@
-// HEADER
+/**
+|============================
+| HEADER
+|============================
+*/
 
 .header-line {
   display: flex;
@@ -10,14 +14,15 @@
   margin-left: auto;
 }
 
-// *NAVIGATION START
+/**
+|============================
+| HORIZONTAL MENU
+|============================
+*/
 
 .nav-section {
   border-top: 1px solid var(--main-color);
   border-bottom: 1px solid var(--main-color);
-}
-
-.nav {
 }
 
 .nav__list {
@@ -25,9 +30,6 @@
   flex-wrap: wrap;
 
   gap: 10px;
-}
-
-.nav__item {
 }
 
 .nav__link {
@@ -41,6 +43,7 @@
 
   text-align: center;
 
+  border: var(--main-color) 1px solid;
   background-color: var(--main-color);
 
   &:hover,
@@ -49,13 +52,14 @@
     color: var(--main-color);
     // border-left: var(--main-color) 1px solid;
     // border-right: var(--main-color) 1px solid;
-    border: var(--main-color) 1px solid;
   }
 }
 
-// !NAVIGATION STOP
-
-// *MENU TILE START
+/**
+|============================
+| TILE MENU
+|============================
+*/
 
 .img-menu {
   display: flex;
@@ -94,6 +98,15 @@
   }
 }
 
+.ikon {
+  fill: var(--light-color);
+
+  &:hover,
+  &:focus {
+    fill: var(--main-color);
+  }
+}
+
 .left-tile {
   display: flex;
   justify-content: center;
@@ -120,10 +133,6 @@
   }
 }
 
-.tile-img {
-  fill: var(--light-color);
-}
-
 .menu-tile__gray {
   color: var(--text-light-color);
   background-color: var(--dark-color);
@@ -146,4 +155,6 @@
   border: var(--main-color) 1px solid;
 }
 
-// !MENU TILE STOP
+.tile-img {
+  border: var(--main-color) 1px solid;
+}

@@ -107,6 +107,11 @@ h6 {
   margin: 0 auto;
 }
 
+/**
+|============================
+| HEADER
+|============================
+*/
 .header-line {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -122,6 +127,11 @@ h6 {
   margin-left: auto;
 }
 
+/**
+|============================
+| HORIZONTAL MENU
+|============================
+*/
 .nav-section {
   border-top: 1px solid var(--main-color);
   border-bottom: 1px solid var(--main-color);
@@ -143,14 +153,19 @@ h6 {
   min-height: 44px;
   color: var(--text-dark-color);
   text-align: center;
+  border: var(--main-color) 1px solid;
   background-color: var(--main-color);
 }
 .nav__link:hover, .nav__link:focus {
   background-color: var(--dark-color);
   color: var(--main-color);
-  border: var(--main-color) 1px solid;
 }
 
+/**
+|============================
+| TILE MENU
+|============================
+*/
 .img-menu {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -189,6 +204,13 @@ h6 {
   border: var(--main-color) 1px solid;
 }
 
+.ikon {
+  fill: var(--light-color);
+}
+.ikon:hover, .ikon:focus {
+  fill: var(--main-color);
+}
+
 .left-tile {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -214,10 +236,6 @@ h6 {
   border: var(--main-color) 1px solid;
 }
 
-.tile-img {
-  fill: var(--light-color);
-}
-
 .menu-tile__gray {
   color: var(--text-light-color);
   background-color: var(--dark-color);
@@ -234,6 +252,10 @@ h6 {
 }
 
 .border-ol {
+  border: var(--main-color) 1px solid;
+}
+
+.tile-img {
   border: var(--main-color) 1px solid;
 }
 
