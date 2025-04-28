@@ -4,6 +4,18 @@
 |============================
 */
 
+// LOGO STYLE START
+
+.logo {
+  color: var(--main-color);
+}
+
+.logo_second_color {
+  color: var(--light-color);
+}
+
+// LOGO STYLE STOP
+
 .header-line {
   display: flex;
   flex-wrap: wrap;
@@ -39,7 +51,9 @@
   min-width: 167px;
   min-height: 44px;
 
-  color: var(--text-dark-color);
+  border-radius: 7px;
+
+  color: var(--text-light-color);
 
   text-align: center;
 
@@ -48,10 +62,8 @@
 
   &:hover,
   &:focus {
-    background-color: var(--dark-color);
+    background-color: var(--light-color);
     color: var(--main-color);
-    // border-left: var(--main-color) 1px solid;
-    // border-right: var(--main-color) 1px solid;
   }
 }
 
@@ -61,100 +73,3 @@
 |============================
 */
 
-.img-menu {
-  display: flex;
-  flex-wrap: wrap;
-
-  gap: 10px;
-}
-
-.margin-bottom {
-  margin-bottom: 10px;
-}
-
-.menu-tile {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
-  text-align: center;
-
-  font-weight: 500;
-  font-size: 62px;
-
-  width: 344px;
-  min-height: 344px;
-
-  padding: 15px 15px;
-
-  color: var(--text-dark-color);
-  background-color: var(--main-color);
-
-  &:hover,
-  &:focus {
-    background-color: var(--dark-color);
-    color: var(--main-color);
-    border: var(--main-color) 1px solid;
-  }
-}
-
-.ikon {
-  fill: var(--light-color);
-
-  &:hover,
-  &:focus {
-    fill: var(--main-color);
-  }
-}
-
-.left-tile {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
-  text-align: center;
-
-  font-weight: 500;
-  font-size: 62px;
-
-  width: 344px;
-  min-height: 344px;
-
-  padding: 15px 15px;
-
-  color: var(--text-dark-color);
-  background-color: var(--main-color);
-
-  &:hover,
-  &:focus {
-    background-color: var(--dark-color);
-    color: var(--main-color);
-    border: var(--main-color) 1px solid;
-  }
-}
-
-.menu-tile__gray {
-  color: var(--text-light-color);
-  background-color: var(--dark-color);
-
-  border: var(--main-color) 1px solid;
-
-  &:hover,
-  &:focus {
-    background-color: var(--light-color);
-    color: var(--text-dark-color);
-    border: var(--main-color) 1px solid;
-  }
-}
-
-.border-tile {
-  border: var(--main-color) 1px solid;
-}
-
-.border-ol {
-  border: var(--main-color) 1px solid;
-}
-
-.tile-img {
-  border: var(--main-color) 1px solid;
-}

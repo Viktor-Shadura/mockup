@@ -3,8 +3,8 @@
 body {
   font-family: 'Montserrat', sans-serif;
 
-  background-color: var(--dark-color);
-  background-image: url(../image/base-image/background_blue_001.jpg);
+  // background-color: var(--dark-color);
+  // background-image: url(../image/base-image/background_blue_001.jpg);
 
   color: var(--text-color);
 
@@ -49,7 +49,7 @@ h3,
 h4,
 h5,
 h6 {
-  color: var(--text-light-color);
+  color: var(--dark-color);
 }
 
 .title {
