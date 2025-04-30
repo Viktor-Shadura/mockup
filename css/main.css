@@ -182,6 +182,15 @@ h6 {
 | TILE MENU
 |============================
 */
+/**
+|============================
+| FOOTER
+|============================
+*/
+.footer {
+  background-color: var(--main-color);
+}
+
 /* BORDER START */
 /* .border-test {
   width: 200px;
