@@ -68,6 +68,7 @@ img {
 /*BASE SETTINGS START*/
 body {
   font-family: "Montserrat", sans-serif;
+  background-image: url(../image/base-image/background_blue_001.jpg);
   color: var(--text-color);
   font-size: 24px;
 }
@@ -119,6 +120,10 @@ h6 {
 | HEADER
 |============================
 */
+.header {
+  background-color: var(--whait-color);
+}
+
 .logo {
   color: var(--main-color);
 }
@@ -150,6 +155,7 @@ h6 {
 .nav-section {
   border-top: 1px solid var(--main-color);
   border-bottom: 1px solid var(--main-color);
+  background-color: var(--whait-color);
 }
 
 .nav__list {
@@ -189,6 +195,7 @@ h6 {
 */
 .footer {
   background-color: var(--main-color);
+  margin-top: 600px;
 }
 
 /* BORDER START */
@@ -377,22 +384,6 @@ code {
 }
 
 /* CURSOR STOP */
-/* TABLE START */
-/* .schedule-body > tr:hover {
-  background-color: tomato;
-  color: white;
-} */
-/* Table styling */
-/* .schedule {
-  border-collapse: collapse;
-}
-
-.schedule th,
-.schedule td {
-  padding: 8px;
-  border: 1px solid #212121;
-} */
-/* TABLE STOP */
 /* TEXT START */
 /* Колонки */
 /* .columns {

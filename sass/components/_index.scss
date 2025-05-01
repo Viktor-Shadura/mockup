@@ -6,6 +6,10 @@
 
 // LOGO STYLE START
 
+.header {
+  background-color: var(--whait-color);
+}
+
 .logo {
   color: var(--main-color);
 }
@@ -35,6 +39,7 @@
 .nav-section {
   border-top: 1px solid var(--main-color);
   border-bottom: 1px solid var(--main-color);
+  background-color: var(--whait-color);
 }
 
 .nav__list {
@@ -81,4 +86,5 @@
 
 .footer {
   background-color: var(--main-color);
+  margin-top: 600px;
 }
