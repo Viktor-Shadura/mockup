@@ -1,1 +1,15 @@
+table {
+  color: var(--dark-color);
+  background-color: var(--light-color);
+  // border: 1px solid red;
+  border-collapse: collapse;
+}
 
+tr {
+  border: 1px solid blue;
+}
+
+td {
+  padding: 10px;
+  border: 1px solid red;
+}

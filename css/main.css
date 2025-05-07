@@ -68,7 +68,7 @@ img {
 /*BASE SETTINGS START*/
 body {
   font-family: "Montserrat", sans-serif;
-  background-image: url(../image/base-image/background_blue_001.jpg);
+  background-image: url(../image/base-image/background_blue_002.jpg);
   color: var(--text-color);
   font-size: 24px;
 }
@@ -183,6 +183,11 @@ h6 {
   color: var(--main-color);
 }
 
+.nav__link-active {
+  color: var(--main-dark-color);
+  background-color: var(--light-color);
+}
+
 /**
 |============================
 | TILE MENU
@@ -195,7 +200,10 @@ h6 {
 */
 .footer {
   background-color: var(--main-color);
-  margin-top: 600px;
+}
+
+.signature {
+  text-align: center;
 }
 
 /* BORDER START */
@@ -384,6 +392,21 @@ code {
 }
 
 /* CURSOR STOP */
+table {
+  color: var(--dark-color);
+  background-color: var(--light-color);
+  border-collapse: collapse;
+}
+
+tr {
+  border: 1px solid blue;
+}
+
+td {
+  padding: 10px;
+  border: 1px solid red;
+}
+
 /* TEXT START */
 /* Колонки */
 /* .columns {

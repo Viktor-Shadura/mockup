@@ -3,22 +3,171 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <!-- STYLES CSS -->
-    <link rel="stylesheet" href="/css/styles.css" />
+    <title lang="en">Free Mockups</title>
+    <meta name="description" content="Практичні напрацювання по html, css." />
+    <!-- FONTS CTART 
+      Підключені такі шрифти:
+    Montserrat - 300, 400, 500, 700, 900.
+    Caveat - 400. (прописний, для цитат і т.д.)
+    -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Caveat&family=Montserrat:wght@300;400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- FONTS STOP -->
+    <!-- MODERN-NORMALIZE START -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+      integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- MODERN-NORMALIZE STOP -->
+    <!-- STYLES CSS SASS START -->
+    <link rel="stylesheet" href="./css/main.min.css" />
+    <!-- STYLES CSS SASS STOP -->
   </head>
   <body>
-    <header>
-      <a href="/index.html">Головна</a>
-    </header>
-    <main>
-      <section>
-        <h1 lang="en">Free Mockups</h1>
-      </section>
-      <section>
+
+    <!-- HEADER -->
+    <header class="header">
+      <div class="container header-line">
+        <a class="link" href="./index.html">
+          <h1 class="logo">MOCKUP<span class="logo_second_color">BOX</span></h1>
+        </a>
         
+        <address class="contacts">
+          <ul class="list contacts">
+            <li><a class="link" href="mailto:shaduravik@gmail.com">shaduravik@gmail.com</a></li>
+            <li><a class="link" href="tel:+380633927799">+38 (063) 392-77-99</a></li>
+          </ul>
+        </address>
+      </div>
+    </header>
+
+    <!-- HORIZONTAL NAVIGATION MENU START-->
+    <section class="section nav-section">
+      <div class="container">
+        <nav>
+          <ul class="nav__list list">
+            <li>
+              <a class="nav__link link" href="./header.html">header</a>
+            </li>
+            <li>
+              <a class="nav__link link" href="./hero.html">hero</a>
+            </li>
+            <li>
+              <a class="nav__link link" href="./image.html">image</a>
+            </li>
+            <li>
+              <a class="nav__link link" href="./list.html">list</a>
+            </li>
+            <li>
+              <a class="nav__link link" href="./border.html">border</a>
+            </li>
+            <li>
+              <a class="nav__link link" href="./button.html">button</a>
+            </li>
+            <li>
+              <a class="nav__link link" href="./audio.html">audio</a>
+            </li>
+            <li>
+              <a class="nav__link link nav__link-active" href="./table.html">table</a>
+            </li>
+            <li>
+              <a class="nav__link link" href="./animation.html">animation</a>
+            </li>
+            <li>
+              <a class="nav__link link" href="">button</a>
+            </li>
+            <li>
+              <a class="nav__link link" href="./footer.html">footer</a>
+            </li>
+            <li>
+              <a class="nav__link link" href="./slider.html">slider</a>
+            </li>
+            <li>
+              <a class="nav__link link" href="./text.html">text</a>
+            </li>
+            <li>
+              <a class="nav__link link" href="./link.html">link</a>
+            </li>
+            <li>
+              <a class="nav__link link" href="./cursor.html">cursor</a>
+            </li>
+            <li>
+              <a class="nav__link link" href="./form.html">form</a>
+            </li>
+            <li>
+              <a class="nav__link link" href="./video.html">video</a>
+            </li>
+            <li>
+              <a class="nav__link link" href="./article.html">article</a>
+            </li>
+            <li>
+              <a class="nav__link link" href="./anchor.html">anchor</a>
+            </li>
+            <li>
+              <a class="nav__link link" href="">footer</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </section>
+    <!-- HORIZONTAL NAVIGATION MENU STOP-->
+    
+    <main>
+      <section class="section">
+        <div class="container">
+          <h1>Таблиці</h1>
+        </div>
+      </section>
+      <!-- РОЗКЛАД ПОТЯГІВ: -->
+      <section class="section">
+        <div class="container">
+          <table>
+            <caption>
+              Розклад потягів
+            </caption>
+            <thead>
+              <tr>
+                <th>Номер</th>
+                <th>Маршрут</th>
+                <th>Час у дорозі</th>
+              </tr>
+            </thead>
+          
+            <tbody>
+              <tr>
+                <td>433</td>
+                <td>Київ - Ковель</td>
+                <td>5 годин</td>
+              </tr>
+              <tr>
+                <td>701</td>
+                <td>Харків - Дніпро</td>
+                <td>7 годин</td>
+              </tr>
+              <tr>
+                <td>258</td>
+                <td>Львів - Одеса</td>
+                <td>4 годин</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
       </section>
     </main>
-    <footer></footer>
+
+    <!-- FOOTER -->
+    <footer class="section footer">
+      <div class="container">
+        <!-- Копірайт -->
+        <p class="signature"> Viktor Shadura &#9786;</p>
+      </div>
+    </footer>
   </body>
 </html>
