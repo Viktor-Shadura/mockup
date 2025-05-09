@@ -73,9 +73,13 @@
 }
 
 .nav__link-active {
-color: var(--main-dark-color);
-background-color: var(--light-color);
+  color: var(--main-dark-color);
+  background-color: var(--light-color);
 
+  &:hover,
+  &:focus {
+    color: var(--main-dark-color);
+  }
 }
 
 /**
@@ -96,5 +100,6 @@ background-color: var(--light-color);
 }
 
 .signature {
+  color: var(--light-color);
   text-align: center;
 }

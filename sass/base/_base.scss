@@ -4,9 +4,9 @@ body {
   font-family: 'Montserrat', sans-serif;
 
   // background-color: var(--dark-color);
-  background-image: url(../image/base-image/background_blue_002.jpg);
+  // background-image: url(../image/base-image/background_blue_002.jpg);
 
-  color: var(--text-color);
+  // color: var(--text-color);
 
   font-size: 24px;
 }
@@ -27,20 +27,8 @@ body {
 /*TYPOGRAPHY SETTINGS START*/
 //TODO також в RESET є скидання налаштувань для тексту.
 
-h1 {
-  font-size: 64px;
-  font-weight: 900;
-
-  padding-top: 20px;
-  padding-bottom: 20px;
-
-  margin-left: 20px;
-
-  color: var(--text-light-color);
-}
-
 p {
-  color: var(--text-light-color);
+  color: var(--text-dark-color);
 }
 
 h1,
@@ -49,7 +37,7 @@ h3,
 h4,
 h5,
 h6 {
-  color: var(--dark-color);
+  color: var(--text-dark-color);
 }
 
 .title {

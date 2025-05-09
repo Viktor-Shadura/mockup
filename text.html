@@ -4,10 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title lang="en">Free Mockups</title>
-    <meta
-      name="description"
-      content="Велика безкоштовна колекція різноманітних готових рішень для ваших перших проєктів у веб-розробці."
-    />
+    <meta name="description" content="Практичні напрацювання по html, css." />
     <!-- FONTS CTART 
       Підключені такі шрифти:
     Montserrat - 300, 400, 500, 700, 900.
@@ -20,52 +17,172 @@
       rel="stylesheet"
     />
     <!-- FONTS STOP -->
-
-    <!-- STYLES CSS -->
-    <link rel="stylesheet" href="./css/styles.css" />
+    <!-- MODERN-NORMALIZE START -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+      integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- MODERN-NORMALIZE STOP -->
+    <!-- STYLES CSS SASS START -->
+    <link rel="stylesheet" href="./css/main.min.css" />
+    <!-- STYLES CSS SASS STOP -->
   </head>
   <body>
-    <header>
-      <a class="link" href="./index.html">Головна</a>
+
+    <!-- HEADER -->
+    <header class="header">
+      <div class="container header-line">
+        <a class="link logo" href="./index.html">MOCKUP<span class="logo_second_color">BOX</span></a>
+        
+        <address class="contacts">
+          <ul class="list contacts">
+            <li><a class="link" href="mailto:shaduravik@gmail.com">shaduravik@gmail.com</a></li>
+            <li><a class="link" href="tel:+380633927799">+38 (063) 392-77-99</a></li>
+          </ul>
+        </address>
+      </div>
     </header>
+    <!-- HORIZONTAL NAVIGATION MENU START-->
+    <section class="section nav-section">
+      <div class="container">
+        <nav>
+          <ul class="nav__list list">
+            <li>
+              <a class="nav__link link" href="./header.html">header</a>
+            </li>
+            <li>
+              <a class="nav__link link" href="./hero.html">hero</a>
+            </li>
+            <li>
+              <a class="nav__link link" href="./image.html">image</a>
+            </li>
+            <li>
+              <a class="nav__link link" href="./list.html">list</a>
+            </li>
+            <li>
+              <a class="nav__link link" href="./border.html">border</a>
+            </li>
+            <li>
+              <a class="nav__link link" href="./button.html">button</a>
+            </li>
+            <li>
+              <a class="nav__link link" href="./audio.html">audio</a>
+            </li>
+            <li>
+              <a class="nav__link link" href="./table.html">table</a>
+            </li>
+            <li>
+              <a class="nav__link link" href="./animation.html">animation</a>
+            </li>
+            <li>
+              <a class="nav__link link" href="">button</a>
+            </li>
+            <li>
+              <a class="nav__link link" href="./footer.html">footer</a>
+            </li>
+            <li>
+              <a class="nav__link link" href="./slider.html">slider</a>
+            </li>
+            <li>
+              <a class="nav__link link nav__link-active" href="./text.html">text</a>
+            </li>
+            <li>
+              <a class="nav__link link" href="./link.html">link</a>
+            </li>
+            <li>
+              <a class="nav__link link" href="./cursor.html">cursor</a>
+            </li>
+            <li>
+              <a class="nav__link link" href="./form.html">form</a>
+            </li>
+            <li>
+              <a class="nav__link link" href="./video.html">video</a>
+            </li>
+            <li>
+              <a class="nav__link link" href="./article.html">article</a>
+            </li>
+            <li>
+              <a class="nav__link link" href="./anchor.html">anchor</a>
+            </li>
+            <li>
+              <a class="nav__link link" href="">footer</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </section>
+    <!-- HORIZONTAL NAVIGATION MENU STOP-->
     <main>
-      <h1>Оформлення тексту</h1>
+      <section class="section">
+        <div class="container">
+          <h1>Оформлення тексту</h1>
+        </div>
+      </section>
 
-<h2>Оформлення дати та часу</h2>
+      <section class="section">
+        <div class="container">
+          <h2>Наголошення в тексті</h2>
 
-<p>Останні новини на <time datetime="2019-12-14">14 грудня 2019 року</time>.</p>
+          <p>
+            <strong>Увага!</strong> Завершується термін підписки.
+            <strong>Обліковий запис буде призупинений.</strong> Будь-ласка, продовжіть
+            підписку або зв'яжіться зі службою підтримки.
+          </p>
 
-<p>
-  Засідання відбулося об <time datetime="2018-07-14T11:30">11:30 ранку</time>.
-</p>
+          <p>Я <em>в повному захваті</em>, коли затримують зарплату!</p>
+        </div>
+      </section>
 
-<h2>нижній та верхній регістр</h2>
-<p>Formula of water  - H<sub>2</sub>O</p>
+      <section class="section">
+        <div class="container">
+          <h2>Оформлення дати та часу</h2>
 
-<p>Total area of the room - 150м<sup>2</sup>.</p>
+          <p>Останні новини на <time datetime="2019-12-14">14 грудня 2019 року</time>.</p>
 
-<p>Solve the equation a<sup>3</sup>+a<sup>2</sup>=4</p>
+          <p>
+            Засідання відбулося об <time datetime="2018-07-14T11:30">11:30 ранку</time>.
+          </p>
+        </div>
+      </section>
 
-<h2>розмітка</h2>
+      <section class="section">
+        <div class="container">
+          <h2>Нижній та верхній регістр</h2>
+          <p>Formula of water  - H<sub>2</sub>O</p>
 
-      <dl>
-        <dt>JPEG</dt>
-        <dd>
-          Large files that do not require transparent backgrounds or animations. This format is ideal for vivid photorealistic photographs as it can contain millions of colors.
-        </dd>
-      
-        <dt>PNG</dt>
-        <dd>
-          Has an additional parameter for describing transparency - the alpha channel. Suitable for images with transparent or monochrome backgrounds. Used for icons and decorative items.
-        </dd>
-      
-        <dt>webP</dt>
-        <dd>
-          A replacement format for PNG and JPEG, but with incomplete browser support. When
-          equal image quality, the compressed files will be smaller than PNG and JPEG on average
-          by 25%.
-        </dd>
-      </dl>
+          <p>Total area of the room - 150м<sup>2</sup>.</p>
+
+          <p>Solve the equation a<sup>3</sup>+a<sup>2</sup>=4</p>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container">
+          <h2>розмітка</h2>
+
+          <dl>
+            <dt>JPEG</dt>
+            <dd>
+              Large files that do not require transparent backgrounds or animations. This format is ideal for vivid photorealistic photographs as it can contain millions of colors.
+            </dd>
+          
+            <dt>PNG</dt>
+            <dd>
+              Has an additional parameter for describing transparency - the alpha channel. Suitable for images with transparent or monochrome backgrounds. Used for icons and decorative items.
+            </dd>
+          
+            <dt>webP</dt>
+            <dd>
+              A replacement format for PNG and JPEG, but with incomplete browser support. When
+              equal image quality, the compressed files will be smaller than PNG and JPEG on average
+              by 25%.
+            </dd>
+          </dl>
+        </div>
+      </section>
 
       <!-- КОЛОНКИ ТЕКСТУ -->
       <section class="section">
@@ -237,6 +354,13 @@
         </div>
       </section>
     </main>
-    <footer></footer>
+
+    <!-- FOOTER -->
+    <footer class="section footer">
+      <div class="container">
+        <!-- Копірайт -->
+        <p class="signature"> Viktor Shadura &#9786;</p>
+      </div>
+    </footer>
   </body>
 </html>
